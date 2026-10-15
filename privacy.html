@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>개인정보처리방침 · Glass Calendar</title>
+<meta name="description" content="Glass Calendar의 Google 사용자 데이터 접근, 이용, 저장, 공유 및 삭제 방침.">
+<meta name="theme-color" content="#234d70">
+<link rel="canonical" href="https://backgom-1094.github.io/privacy.html">
+<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body><a class="skip" href="#main">본문으로 이동</a>
+<header><div class="shell header-row"><a class="brand" href="index.html"><img src="icon.svg" alt="" width="36" height="36">Glass Calendar</a><nav aria-label="주 메뉴"><a href="index.html">앱 소개</a><a href="privacy.html" aria-current="page">개인정보처리방침</a><a href="terms.html">이용약관</a></nav></div></header>
+<div class="shell"><main id="main">
+<article class="document"><p class="eyebrow">PRIVACY</p><h1>개인정보처리방침</h1><p class="meta">Glass Calendar · 문서 기준일 2026년 10월 15일 · 앱 0.5.6 기준</p>
+<p>Glass Calendar는 Windows PC에서 일정을 관리하고, 사용자가 선택하면 Google Calendar와 동기화하는 개인용 앱입니다. 이 방침은 앱이 접근하는 데이터, 이용 목적, 저장 및 삭제 방법을 설명합니다.</p>
+<section><h2>1. 접근하는 정보와 이용 목적</h2><div class="table-wrap"><table><thead><tr><th scope="col">정보</th><th scope="col">이용 목적</th></tr></thead><tbody>
+<tr><td>일정 제목, 시작·종료 시각, 종일 여부, 장소, 메모, 색상, 알림 설정, 일정 식별자 및 동기화 상태</td><td>일정 표시·검색·편집, PC와 Google 간 동기화 및 충돌 확인</td></tr>
+<tr><td>기본 캘린더의 식별자, 이름, 시간대 등 캘린더 정보</td><td>연결된 기본 캘린더를 확인하고 올바른 캘린더와 동기화</td></tr>
+<tr><td>Google OAuth 액세스 토큰, 갱신 토큰 및 클라이언트 설정</td><td>사용자가 동의한 권한으로 Google API를 호출하고 인증을 갱신</td></tr>
+<tr><td>화면·동기화 설정, 공휴일 캐시</td><td>사용자 설정 복원 및 공휴일 표시</td></tr>
+<tr><td>일정 도우미에 직접 입력한 문장, 추가 답변, 기준 시각</td><td>사용자가 확인할 일정 초안 생성</td></tr>
+</tbody></table></div><p>Google 계정 비밀번호는 Google 로그인 화면에서 처리하며 Glass Calendar에 저장하지 않습니다. 기본 캘린더 식별자에 계정 이메일 주소가 포함될 수 있습니다.</p></section>
+<section><h2>2. Google 접근 권한</h2><p>Google 연결 시 앱은 다음 권한을 요청합니다. 실제 사용은 연결한 계정의 기본 캘린더와 일정 동기화에 한정합니다.</p>
+<ul><li><code>calendar.events.owned</code>: 사용자가 소유한 캘린더의 일정 조회·생성·수정·삭제</li><li><code>calendar.calendars.readonly</code>: 캘린더의 이름·시간대 등 속성 조회</li></ul>
+<p>Google 동기화 대상으로 선택한 일정은 사용자 설정에 따라 Google에 전송됩니다. PC 전용 일정은 Google에 전송하지 않습니다. 동기화를 끄면 새 변경사항의 전송을 멈추며, 이미 진행 중인 요청은 완료될 수 있습니다.</p></section>
+<section><h2>3. PC 저장과 보호</h2><p>일정, 설정, 동기화 기록 및 공휴일 캐시는 Windows 사용자 데이터 폴더에 저장합니다. 일정 파일 자체는 암호화하지 않습니다. Google OAuth 연결 정보는 Windows의 사용자 계정 보호 기능을 이용해 암호화하여 저장합니다.</p>
+<p>사용자가 내보낸 백업에는 일정과 설정이 포함되며 OAuth 연결 정보는 포함하지 않습니다. PC와 내보낸 백업에 접근할 수 있는 사람이 일정 내용을 볼 수 있으므로 Windows 계정과 백업 파일을 관리해 주세요.</p></section>
+<section><h2>4. 외부 전송과 공유</h2><p>Google 연결 및 동기화 과정에서 필요한 정보는 Google에 직접 전송됩니다. 한국 공휴일을 갱신할 때 Google의 공개 공휴일 자료를 요청합니다. 이 요청에는 사용자의 개인 일정 내용을 첨부하지 않습니다.</p>
+<p>앱에는 개발자 서버로 개인 일정을 수집하는 기능이 없으며, Google에서 받은 사용자 데이터를 판매하거나 광고·사용자 프로파일링에 이용하지 않습니다. Google 사용자 데이터는 일정 관리와 사용자가 요청한 동기화 기능에만 사용합니다.</p>
+<p>Google API에서 받은 정보의 사용 및 다른 앱으로의 전송은 제한적 사용 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>을 준수합니다. 이 문구는 Google의 인증 또는 보증을 의미하지 않습니다.</p></section>
+<section><h2>5. Schedule Assistant</h2><p>기본 일정 도우미는 입력 문장을 PC에서 규칙으로 분석하며 외부 AI 서비스에 전송하지 않습니다. 사용자가 로컬 AI 기능을 선택하면 입력 문장·추가 답변·기준 시각을 같은 PC의 Ollama로 전달합니다. 전체 Google 캘린더를 AI 모델에 보내지 않으며, Google에서 가져온 일정 데이터를 범용 AI 모델 학습에 이용하지 않습니다.</p>
+<p>로컬 모델 설치와 다운로드는 사용자가 별도로 진행합니다. 일정 초안은 사용자가 확인하고 저장한 뒤에만 실제 일정으로 등록됩니다.</p></section>
+<section><h2>6. 보관, 연결 해제 및 삭제</h2><ul>
+<li><strong>일정 삭제:</strong> 앱에서 삭제할 수 있습니다. Google 동기화 대상 일정은 동기화가 완료되면 Google에도 삭제가 반영됩니다. PC 전용 일정은 PC에서만 삭제합니다.</li>
+<li><strong>동기화 중지:</strong> 설정에서 Google 일정 동기화를 끄면 새 전송을 중지합니다. 기존 PC 일정과 Google에 저장된 일정은 유지됩니다.</li>
+<li><strong>연결 해제:</strong> 앱에서 Google 연결을 해제하면 앱이 보관한 Google 토큰을 제거합니다. 기존 PC 일정과 Google 일정은 자동으로 삭제되지 않습니다.</li>
+<li><strong>권한 철회:</strong> <a href="https://myaccount.google.com/connections">Google 계정의 연결 관리</a>에서 Glass Calendar의 접근 권한을 철회할 수 있습니다.</li>
+<li><strong>PC 자료 완전 삭제:</strong> 앱을 종료한 뒤 <code>%APPDATA%\glass-calendar</code> 폴더와 사용자가 별도로 내보낸 백업을 삭제하면 해당 PC 자료를 제거할 수 있습니다. 앱을 제거하는 것만으로 개인 자료 폴더가 지워지지는 않습니다. PC 자료 삭제는 Google 서버의 일정을 삭제하지 않습니다.</li>
+</ul><p>자료는 사용자가 삭제할 때까지 PC에 보관됩니다. 이전 저장본이나 내보낸 백업에도 일정이 남을 수 있으므로 필요하면 함께 삭제해 주세요. Google에 보관된 정보의 처리는 <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>의 적용을 받습니다.</p></section>
+<section><h2>7. 이 안내 웹사이트</h2><p>이 사이트에는 자체 회원가입, 일정 입력 폼, 광고 또는 방문 분석 스크립트를 넣지 않았습니다. 호스팅 제공자인 GitHub Pages는 보안을 위해 방문자의 IP 주소를 기록할 수 있습니다. 자세한 내용은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>에서 확인할 수 있습니다.</p></section>
+<section><h2>8. 문의 및 변경 안내</h2><p>운영 및 문의: <a href="https://github.com/BackGOM-1094/BackGOM-1094.github.io/issues/new">BackGOM-1094의 Glass Calendar 문의 페이지</a>. 개인정보와 관련한 문의도 이 경로를 이용할 수 있습니다. 공개 문의에는 일정 원문, 토큰, 비밀번호 등 민감한 정보를 올리지 마세요.</p><p>앱의 데이터 처리 방식이 바뀌면 이 페이지의 내용과 기준일을 갱신합니다.</p></section></article>
+</main></div>
+<footer><div class="shell footer-row"><span>Glass Calendar · Windows 개인용 캘린더</span><div class="footer-links"><a href="privacy.html">개인정보처리방침</a><a href="terms.html">이용약관</a><a href="https://github.com/BackGOM-1094/BackGOM-1094.github.io/issues/new">문의</a></div></div></footer>
+</body></html>
